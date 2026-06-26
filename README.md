@@ -1,8 +1,8 @@
-# Telco Customer Churn Analysis
+# Telco Customer Churn Prediction
 
-An end-to-end machine learning project for exploring and predicting customer churn in a telecom business. The project includes exploratory analysis, preprocessing, Random Forest modeling, recall-focused tuning, ROC-AUC evaluation, feature importance review, and customer segmentation with K-Means.
+A complete end-to-end machine learning project for predicting customer churn using a Telco-style customer churn dataset. The project covers exploratory data analysis, data preprocessing, Random Forest model building, recall-focused tuning, cross-validation, ROC-AUC evaluation, feature importance analysis, and customer segmentation using K-Means clustering.
 
-This repository uses a synthetic Telco-style dataset created for learning and portfolio use. It mirrors common telecom churn fields such as tenure, contract type, monthly charges, internet service, payment method, support usage, churn label, churn score, and customer lifetime value.
+This repository uses a synthetic Telco-style dataset created for learning and portfolio use. It mirrors common telecom churn fields such as tenure, contract type, monthly charges, total charges, internet service, payment method, tech support, churn label, churn score, and customer lifetime value.
 
 ## Files
 
@@ -46,4 +46,3 @@ Open `CBSOTPROJ1.ipynb` first and run the cells from top to bottom. The notebook
 - Lack of support services such as tech support and online security is a strong churn signal.
 - Recall is more important than raw accuracy when the business goal is to identify customers likely to leave.
 - Customer segmentation helps convert churn probabilities into practical retention groups.
-
