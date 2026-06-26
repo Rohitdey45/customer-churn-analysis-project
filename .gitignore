@@ -1,0 +1,12 @@
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+node_modules/
+.asset-build/
+.source-reference/
+*.pyc
+*.pyo
+*.log
+
